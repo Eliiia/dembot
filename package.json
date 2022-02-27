@@ -1,0 +1,24 @@
+{
+  "name": "dembot",
+  "version": "1.0.0",
+  "description": "dembot",
+  "main": "src/bot.ts",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eliiia/dembot.git"
+  },
+  "author": "Eliiia",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Eliiia/dembot/issues"
+  },
+  "homepage": "https://github.com/Eliiia/dembot#readme",
+  "devDependencies": {
+    "discord.js": "^13.6.0",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  }
+}

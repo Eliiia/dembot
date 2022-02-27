@@ -1,0 +1,8 @@
+# Program-specific
+config.json
+
+# Node
+node_modules/
+
+# Typescript
+build/
