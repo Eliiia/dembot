@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Eliiia/dembot#readme",
   "dependencies": {
+    "@discordjs/builders": "^0.15.0",
     "@discordjs/rest": "^0.3.0",
     "discord-api-types": "^0.27.3",
     "discord.js": "^13.6.0",
