@@ -22,12 +22,12 @@ export async function run(client: Client, interaction: Interaction) {
         } catch (e) {
             interaction.reply(`Ran into an error!!! :ccc\n\n\`\`\`${e}\`\`\``);
             return console.log(
-                `${interaction.user.tag} (${interaction.user.id}) ran \x1b[31m${interaction.commandName}\x1b[39m`,
+                `${interaction.user.tag} (${interaction.user.id}) ran \x1b[31m/${interaction.commandName}\x1b[39m`,
             );
         }
 
         return console.log(
-            `${interaction.user.tag} (${interaction.user.id}) ran \x1b[32m${interaction.commandName}\x1b[39m`,
+            `${interaction.user.tag} (${interaction.user.id}) ran \x1b[32m/${interaction.commandName}\x1b[39m`,
         );
     }
 }
