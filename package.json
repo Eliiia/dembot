@@ -4,7 +4,7 @@
   "description": "dembot",
   "main": "build/bot.js",
   "scripts": {
-    "test": "ts-node src/bot.ts",
+    "test": "nodemon src/bot.ts",
     "lint": "eslint --ext ts,tsx .",
     "run": "npm run build && node build/bot.js",
     "build": "tsc",
@@ -36,7 +36,7 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0",
-    "nodemon": "^2.0.15",
+    "nodemon": "^2.0.16",
     "ts-node": "^10.8.1",
     "typescript": "^4.5.5"
   }
